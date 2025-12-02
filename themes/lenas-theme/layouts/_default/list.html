@@ -7,10 +7,10 @@
 
 
   <div class="day-box {{ if eq .Params.day now.Day }}today{{ else if lt .Params.day now.Day }}past{{ end }}">
-    <a href="{{ if le .Params.day now.Day }}{{ .RelPermalink }}{{ end }}">
+    <a href="{{ .RelPermalink }}">
       <span>Tag {{ .Params.day }}</span>
     </a>
-    {{ if lt .Params.day now.Day }}
+    {{ if le .Params.day now.Day }}
       <div class="preview">{{ .Params.preview }}</div>
     {{ end }}
   </div>

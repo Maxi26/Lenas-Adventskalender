@@ -1,7 +1,32 @@
 {{ define "main" }}
-<a href="/">← Zurück</a>
-<div class="day-content">
-<h2>{{ .Title }}</h2>
-<div class="inner">{{ .Content }}</div>
-</div>
+    <a href="/days/" class="back-button">← Zurück</a>
+
+    <style>
+        .back-button {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            padding: 0.5rem 1rem;
+            background: #f5c1d6;
+            color: #333;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-button:hover {
+            background: #e8a9c3;
+        }
+    </style>
+
+    {{ $today := now.Day }}
+    {{ $day := .Params.day }}
+
+    {{ if le $day $today }}
+        <!-- Inhalt sichtbar -->
+        <h1>Tag {{ .Params.day }}</h1>
+        <div>{{ .Content }}</div>
+
+    {{ else }}
+        <h1>🎁 Noch geschlossen</h1>
+        <p>Dieser Tag öffnet sich erst am {{ $day }}. Dezember ✨</p>
+    {{ end }}
 {{ end }}
