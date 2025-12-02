@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="days">
+    {{ range .Pages.ByParam "day" }}
+    <div class="day" data-day="{{ .Params.day }}">
+        <div class="day-header">
+            <span class="day-number">Tag {{ .Params.day }}</span>
+            <img src="/img/hearts.svg" class="icon-heart">
+        </div>
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

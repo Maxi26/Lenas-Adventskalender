@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "de"
+title = "Lena‘s Adventskalender"
+paginate = 50
+enableEmoji = true
