@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
+<meta charset="UTF-8">
+<title>{{ .Site.Title }}</title>
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Lena’s Adventskalender 🎄</h1>
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    <p>Mit Liebe gemacht ❤️</p>
-  </footer>
+<header>
+<h1>Lena's Adventskalender 🎄</h1>
+</header>
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+<footer><p>Mit Liebe gemacht ❤️</p></footer>
 </body>
 </html>

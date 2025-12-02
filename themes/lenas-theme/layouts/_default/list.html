@@ -1,10 +1,19 @@
 {{ define "main" }}
 <h2>Alle Tage</h2>
 <div class="days-grid">
-    {{ range .Pages }}
-        <a class="day-box {{ if eq .File.BaseFileName (printf "day%02d" now.Day) }}today{{ end }}" href="{{ .RelPermalink }}">
-            <span>{{ replace .Title "Day " "Tag " }}</span>
-        </a>
+{{ range .Pages.ByParam "day" }}
+
+
+
+
+  <div class="day-box {{ if eq .Params.day now.Day }}today{{ else if lt .Params.day now.Day }}past{{ end }}">
+    <a href="{{ if le .Params.day now.Day }}{{ .RelPermalink }}{{ end }}">
+      <span>Tag {{ .Params.day }}</span>
+    </a>
+    {{ if lt .Params.day now.Day }}
+      <div class="preview">{{ .Params.preview }}</div>
     {{ end }}
+  </div>
+{{ end }}
 </div>
 {{ end }}

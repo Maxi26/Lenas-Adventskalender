@@ -1,5 +1,6 @@
 ---
 title: "Day 07"
+day: 7
 ---
 
 Heute ist **Tag 7** ❤️  
