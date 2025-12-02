@@ -1,8 +1,8 @@
 ---
 title: "Day 03"
 day: 3
-preview: "Harry Potter"
+preview: "Massageabend"
 ---
 
 Heute ist **Tag 3** ❤️  
-Wenn du magst dann gucken wir heute Abend Harry Potter. Das können wir aber auch gerne verschieben und Trash TV gucken.
+Heute Abend kannst du dich auf eine Massage an den Füßen und am Rücken freuen. Dazu könnte man Nussecken essen und Tee trinken.
