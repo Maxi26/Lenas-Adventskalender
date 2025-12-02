@@ -1,6 +1,6 @@
 ---
-title: "Tag 17"
-day: 17
+title: "Day 17"
 ---
 
-Hier kommt eine kleine Überraschung für Tag 17! 🎀✨
+Heute ist **Tag 17** ❤️  
+Eine kleine Überraschung wartet auf dich!

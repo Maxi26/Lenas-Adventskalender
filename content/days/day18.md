@@ -1,6 +1,6 @@
 ---
-title: "Tag 18"
-day: 18
+title: "Day 18"
 ---
 
-Hier kommt eine kleine Überraschung für Tag 18! 🎀✨
+Heute ist **Tag 18** ❤️  
+Eine kleine Überraschung wartet auf dich!

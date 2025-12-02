@@ -1,6 +1,6 @@
 ---
-title: "Tag 21"
-day: 21
+title: "Day 21"
 ---
 
-Hier kommt eine kleine Überraschung für Tag 21! 🎀✨
+Heute ist **Tag 21** ❤️  
+Eine kleine Überraschung wartet auf dich!

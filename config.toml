@@ -1,5 +1,9 @@
 baseURL = "/"
-languageCode = "de"
-title = "Lena‘s Adventskalender"
+languageCode = "de-de"
+title = "Lena's Adventskalender"
+theme = "lenas-theme"
 paginate = 50
 enableEmoji = true
+
+[pagination]
+  pagerSize = 24

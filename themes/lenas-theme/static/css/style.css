@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+    background: #fff7fb;
+    color: #333;
+    padding: 20px;
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d63384;
+}
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+    margin-top: 30px;
+}
+.day-box {
+    background: #ffe4f1;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #b3185b;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.day-box:hover { transform: scale(1.05); }
+.day-box.today {
+    background: #ffb3d6;
+    border: 3px solid #ff4da6;
+}
+.day-content {
+    background: #ffe9f5;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}

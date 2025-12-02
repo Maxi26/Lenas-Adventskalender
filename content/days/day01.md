@@ -1,6 +1,6 @@
 ---
-title: "Tag 1"
-day: 1
+title: "Day 01"
 ---
 
-Hier kommt eine kleine Überraschung für Tag 1! 🎀✨
+Heute ist **Tag 1** ❤️  
+Eine kleine Überraschung wartet auf dich!
