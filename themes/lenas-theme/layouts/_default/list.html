@@ -1,11 +1,10 @@
 {{ define "main" }}
+{{ $now := (now.Local) }}
+{{ $today := $now.Day }}
+
 <h2>Alle Tage</h2>
 <div class="days-grid">
 {{ range .Pages.ByParam "day" }}
-
-
-
-
   <div class="day-box {{ if eq .Params.day now.Day }}today{{ else if lt .Params.day now.Day }}past{{ end }}">
     <a href="{{ .RelPermalink }}">
       <span>Tag {{ .Params.day }}</span>

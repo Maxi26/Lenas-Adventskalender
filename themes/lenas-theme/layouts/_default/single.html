@@ -17,6 +17,7 @@
         }
     </style>
 
+    {{ $now := (now.Local) }}
     {{ $today := now.Day }}
     {{ $day := .Params.day }}
 
