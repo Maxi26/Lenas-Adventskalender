@@ -1,6 +1,7 @@
 ---
 title: "Day 08"
 day: 8
+preview: ""
 
 ---
 

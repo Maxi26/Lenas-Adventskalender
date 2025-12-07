@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="UTF-8">
-<title>{{ .Site.Title }}</title>
-<link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-<header>
-<h1>Lena's Adventskalender 🎄</h1>
-</header>
-<main>
-{{ block "main" . }}{{ end }}
-</main>
-<footer><p>Mit Liebe gemacht ❤️</p></footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ .Site.Title }}</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+        <h1>Lena's Adventskalender 🎄</h1>
+        </header>
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+        <footer><p>Mit Liebe gemacht ❤️</p></footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const today = new Date().getDate();
+                const dayElement = document.getElementById("day-content");
+                const lockedElement = document.getElementById("locked-message");
+
+                if (!dayElement) return;
+
+                const thisDay = parseInt(dayElement.day);
+
+                console.log("Heute:", today, "| Dieses Türchen:", thisDay);
+
+                if (thisDay <= today) {
+                    // Türchen darf sichtbar sein
+                    dayElement.style.display = "block";
+                    lockedElement.style.display = "none";
+                } else {
+                    // Türchen ist gesperrt
+                    dayElement.style.display = "none";
+                    lockedElement.style.display = "block";
+                }
+            });
+        </script>
+
+
+    </body>
 </html>

@@ -15,4 +15,12 @@
   </div>
 {{ end }}
 </div>
+
+<div id="day-content" data-day="{{ .Params.day }}">
+    {{ .Content }}
+</div>
+
+<div id="locked-message" data-day="{{ .Params.day }}" style="display:none;">
+    <p></p>
+</div>
 {{ end }}

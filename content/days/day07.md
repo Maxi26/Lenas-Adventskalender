@@ -1,7 +1,8 @@
 ---
 title: "Day 07"
 day: 7
+preview: "Paar Minuten"
 ---
 
 Heute ist **Tag 7** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute können wir Parr Minuten Spielen wenn du magst.

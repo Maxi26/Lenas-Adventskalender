@@ -1,7 +1,8 @@
 ---
 title: "Day 05"
 day: 5
+preview: "Dies oder das"
 ---
 
 Heute ist **Tag 5** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute spielen wir aufgrund der geringen Zeit Dies oder Das.

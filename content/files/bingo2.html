@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reality TV Bingo</title>
+    <style>
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .page-container {
+            background: white;
+            width: 210mm; 
+            min-height: 297mm; 
+            padding: 15mm; /* Etwas weniger Padding an den Seiten */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            margin-top: 0;
+            font-size: 22px; /* Schrift etwas kleiner */
+            text-transform: uppercase;
+        }
+        .bingo-card {
+            margin-bottom: 30px; /* Weniger Abstand nach unten */
+            border: 2px solid #333;
+            padding: 5px; /* Kompakter */
+        }
+        .bingo-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            gap: 2px;
+            background-color: #333; 
+            border: 2px solid #333;
+        }
+        .cell {
+            background-color: white;
+            padding: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 10px; /* Schrift angepasst damit mehr Text passt */
+            height: 60px; /* Etwas niedriger als vorher (war 70px) */
+            word-wrap: break-word;
+            line-height: 1.1;
+        }
+        .free-space {
+            background-color: #e0e0e0;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .cut-line {
+            border-top: 2px dashed #999;
+            margin: 15px 0;
+            position: relative;
+        }
+        .cut-line::after {
+            content: '✂️ Hier schneiden';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0 10px;
+            color: #666;
+            font-size: 10px;
+        }
+
+        /* Print Settings */
+        @media print {
+            @page {
+                margin: 0; /* Entfernt Browser-Standardränder */
+                size: A4;
+            }
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+            }
+            .page-container {
+                width: 100%;
+                height: 100%;
+                box-shadow: none;
+                /* HIER IST DER EXTRA PLATZ OBEN: */
+                padding-top: 25mm; 
+                padding-left: 15mm;
+                padding-right: 15mm;
+                margin: 0;
+            }
+            .bingo-card {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <h1>Lennino Bingo</h1>
+        <div class="bingo-card">
+            <div class="bingo-grid">
+                <div class="cell">„Ich bin hier, um die wahre Liebe zu finden“</div>
+                <div class="cell">Künstliches Weinen (ohne echte Träne)</div>
+                <div class="cell">Übertrieben dramatische Hintergrundmusik</div>
+                <div class="cell">Jemand bricht eine Challenge ab</div>
+                <div class="cell">Peinlicher Flirt, der nicht erwidert wird</div>
+
+                <div class="cell">Ex taucht auf</div>
+                <div class="cell">Promi beschwert sich über körperliche Aufgabe</div>
+                <div class="cell">„Ich brauche gerade Zeit für mich“</div>
+                <div class="cell">Jemand läuft dramatisch weg</div>
+                <div class="cell">Tier stört eine Szene (Kuh, Huhn, Ziege)</div>
+
+                <div class="cell">„Ich kann nicht mehr!“</div>
+                <div class="cell">Team streitet bei einer Hof-Challenge</div>
+                <div class="cell">Jemand flüstert in die Kamera</div>
+                <div class="cell">Hof-Fail (Sack fällt, Karre kippt)</div>
+                <div class="cell">Schlecht geschauspielerte Eifersucht</div>
+
+                <div class="cell">Promi überrascht von einfacher Aufgabe</div>
+                <div class="cell">„Ich hab das nicht nötig“</div>
+                <div class="cell">Kamera zeigt Zeitlupe von Unwichtigem</div>
+                <div class="cell">Jemand isst beim Interview</div>
+                <div class="cell">Teilnehmer stellt sich absichtlich dumm</div>
+
+                <div class="cell">Jemand rennt schreiend durchs Bild</div>
+                <div class="cell">Überdramatisierte Musik bei Lappalie</div>
+                <div class="cell">Streit aus dem Nichts</div>
+                <div class="cell">„Ich fühle mich nicht respektiert“</div>
+                <div class="cell free-space">FREE SPACE:<br>CRINGE</div>
+            </div>
+        </div>
+
+        <div class="cut-line"></div>
+
+        <h1>Bebino Bingo</h1>
+        <div class="bingo-card">
+            <div class="bingo-grid">
+                <div class="cell">„Ich bin eigentlich gar nicht so“</div>
+                <div class="cell">Offensichtlich geschnittene Szene (cuts)</div>
+                <div class="cell">Teilnehmer sauer ohne Grund</div>
+                <div class="cell">Challenge endet im kompletten Chaos</div>
+                <div class="cell">Tier klaut Essen / stupst jemanden an</div>
+
+                <div class="cell">Overacting bei Eifersucht (MLFL)</div>
+                <div class="cell">Promi beschwert sich über "ungerechte" Regeln</div>
+                <div class="cell">„Ich bin ehrlich – vielleicht zu ehrlich“</div>
+                <div class="cell">Peinlicher Monolog in die Kamera</div>
+                <div class="cell">Stall-Geräusch unterbricht Szene</div>
+
+                <div class="cell">Trainer/Moderator muss eingreifen</div>
+                <div class="cell">Jemand kann sich nicht entscheiden (MLFL)</div>
+                <div class="cell">Teilnehmer ignoriert Teamaufgabe</div>
+                <div class="cell">Werkzeug wird falsch benutzt</div>
+                <div class="cell">Slow-Motion-Walk durch den Hof</div>
+
+                <div class="cell">Schlecht geschauspielerte Freude</div>
+                <div class="cell">Betont 10x wie "authentisch" er ist</div>
+                <div class="cell">Team sabotiert sich selbst</div>
+                <div class="cell">„Ich fühl mich beobachtet“</div>
+                <div class="cell">Teilnehmer ruft „Ich kann das nicht!“</div>
+
+                <div class="cell">Lob für etwas Durchschnittliches</div>
+                <div class="cell">Jemand nennt Aktion "strategisch"</div>
+                <div class="cell">Drama wegen Misskommunikation</div>
+                <div class="cell">Jemand interpretiert etwas total falsch</div>
+                <div class="cell free-space">FREE SPACE:<br>Drama Baby!</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

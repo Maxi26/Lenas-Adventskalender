@@ -1,7 +1,8 @@
 ---
 title: "Day 06"
 day: 6
+preview: "Origami"
 ---
 
 Heute ist **Tag 6** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute können wir mal Origami ausprobieren
