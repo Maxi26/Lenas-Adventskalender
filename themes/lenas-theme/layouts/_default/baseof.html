@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>{{ .Site.Title }}</title>
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
     </head>
     <body>
         <header>
@@ -17,13 +18,14 @@
             document.addEventListener("DOMContentLoaded", () => {
                 const today = new Date().getDate();
                 const dayElement = document.getElementById("day-content");
-                const lockedElement = document.getElementById("locked-message");
+                // const lockedElement = document.getElementById("locked-message");
 
                 if (!dayElement) return;
 
-                const thisDay = parseInt(dayElement.day);
+                console.log(`Heute: ${today}| Dieses Türchen: `, dayElement.dataset.day);
+                const thisDay = parseInt(dayElement.dataset.day);
 
-                console.log("Heute:", today, "| Dieses Türchen:", thisDay);
+                //console.log(`Heute: ${today}| Dieses Türchen: ${thisDay} `, dayElement);
 
                 if (thisDay <= today) {
                     // Türchen darf sichtbar sein
@@ -35,6 +37,25 @@
                     lockedElement.style.display = "block";
                 }
             });
+
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const today = new Date().getDate();
+
+                document.querySelectorAll(".day-box").forEach(box => {
+                    const day = parseInt(box.dataset.day);
+
+                    if (day === today) {
+                        box.classList.add("today");
+                        console.log(`Heute: ${today}| Dieses Türchen: `, box);
+                    } else if (day < today) {
+                        box.classList.add("past");
+                    } else {
+                        box.classList.add("future");
+                    }
+                });
+            });
+
         </script>
 
 

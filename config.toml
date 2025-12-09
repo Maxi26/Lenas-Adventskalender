@@ -4,3 +4,5 @@ title = "Lena's Adventskalender"
 theme = "lenas-theme"
 enableEmoji = true
 timeZone = "Europe/Berlin"
+[params]
+  favicon = "favicon.ico"

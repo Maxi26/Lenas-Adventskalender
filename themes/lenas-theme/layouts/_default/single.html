@@ -21,13 +21,10 @@
     {{ $today := now.Day }}
     {{ $day := .Params.day }}
 
-    {{ if le $day $today }}
         <!-- Inhalt sichtbar -->
-        <h1>Tag {{ .Params.day }}</h1>
-        <div>{{ .Content }}</div>
+        
+        <div id="day-content" style="margin-left:0px;" data-day={{ $day }}><h1>Tag {{ .Params.day }}</h1>{{ .Content }}</div>
 
-    {{ else }}
-        <h1>🎁 Noch geschlossen</h1>
-        <p>Dieser Tag öffnet sich erst am {{ $day }}. Dezember ✨</p>
-    {{ end }}
+        
+        <div id="lockedElement" style="margin-left:0px;" data-day={{ $day }}><h1>🎁 Noch geschlossen</h1>Dieser Tag öffnet sich erst am {{ $day }}. Dezember ✨</div>
 {{ end }}

@@ -6,4 +6,4 @@ preview: "Pasta"
 ---
 
 Heute ist **Tag 8** ❤️  
-Hinter dem achten Türchen verstckt sich ein Pasta Abend zusammen.
+Hinter dem achten Türchen versteckt sich ein Pasta Abend zusammen.

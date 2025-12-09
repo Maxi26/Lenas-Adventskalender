@@ -5,4 +5,4 @@ preview: "Paar Minuten"
 ---
 
 Heute ist **Tag 7** ❤️  
-Heute können wir Parr Minuten Spielen wenn du magst.
+Heute können wir Paar Minuten Spielen wenn du magst.
