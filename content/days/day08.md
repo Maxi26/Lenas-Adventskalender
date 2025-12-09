@@ -1,9 +1,9 @@
 ---
 title: "Day 08"
 day: 8
-preview: ""
+preview: "Pasta"
 
 ---
 
 Heute ist **Tag 8** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Hinter dem achten Türchen verstckt sich ein Pasta Abend zusammen.
