@@ -1,6 +1,7 @@
 ---
 title: "Day 20"
 day: 20
+preview: ""
 ---
 
 Heute ist **Tag 20** ❤️  

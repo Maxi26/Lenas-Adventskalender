@@ -1,7 +1,8 @@
 ---
 title: "Day 23"
 day: 23
+preview: "Airfryer Mandeln"
 ---
 
 Heute ist **Tag 23** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute würde es mich freuen wenn wir gebrannte Mandeln mit dem Airfrier machen könnten.

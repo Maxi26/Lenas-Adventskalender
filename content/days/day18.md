@@ -1,6 +1,7 @@
 ---
 title: "Day 18"
 day: 18
+preview: ""
 
 ---
 

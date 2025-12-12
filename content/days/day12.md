@@ -1,7 +1,8 @@
 ---
 title: "Day 12"
 day: 12
+preview: "Rummikub"
 ---
 
 Heute ist **Tag 12** ❤️  
-Eine kleine Überraschung wartet auf dich!
+hast du heute Abend Lust auf eine schnelle Runde Rummikub? Wenn ja dann freu dich drauf.
