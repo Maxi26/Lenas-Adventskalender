@@ -1,8 +1,8 @@
 ---
 title: "Day 14"
 day: 14
-preview: ""
+preview: "Couch Abend"
 ---
 
 Heute ist **Tag 14** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute würde ich mich freuen mit dir einen Couch Abend zu verbringen.
