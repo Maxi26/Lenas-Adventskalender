@@ -1,7 +1,7 @@
 ---
 title: "Day 21"
 day: 21
-preview: ""
+preview: "Pancakes"
 ---
 
 Heute ist **Tag 21** ❤️  

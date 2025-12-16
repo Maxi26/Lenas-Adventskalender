@@ -1,9 +1,9 @@
 ---
 title: "Day 16"
 day: 16
-preview: ""
+preview: "Zeichnen"
 
 ---
 
 Heute ist **Tag 16** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Wenn du möchtest zeichnen wir heute ein bisschen.

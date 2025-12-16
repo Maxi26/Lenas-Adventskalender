@@ -48,7 +48,7 @@
                     if (day === today) {
                         box.classList.add("today");
                         console.log(`Heute: ${today}| Dieses Türchen: `, box);
-                    } else if (day < today) {
+                    } else if (day <= today) {
                         box.classList.add("past");
                     } else {
                         box.classList.add("future");
