@@ -1,8 +1,8 @@
 ---
 title: "Day 17"
 day: 17
-preview: ""
+preview: "backen"
 ---
 
 Heute ist **Tag 17** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Wenn du Lust hast backen wir heute ein bisschen
