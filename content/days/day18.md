@@ -1,9 +1,9 @@
 ---
 title: "Day 18"
 day: 18
-preview: ""
+preview: "Spieleabend"
 
 ---
 
 Heute ist **Tag 18** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute können wir gerne einen Spieleabend machen.

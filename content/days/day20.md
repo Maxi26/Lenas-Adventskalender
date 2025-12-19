@@ -1,8 +1,8 @@
 ---
 title: "Day 20"
 day: 20
-preview: ""
+preview: "Bett-Frühstück"
 ---
 
 Heute ist **Tag 20** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Heute bekommst du Frühstück ans Bett 😊

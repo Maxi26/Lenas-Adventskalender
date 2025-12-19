@@ -1,7 +1,7 @@
 ---
 title: "Day 03"
 day: 3
-preview: "Massageabend"
+preview: "Massage abend"
 ---
 
 Heute ist **Tag 3** ❤️  

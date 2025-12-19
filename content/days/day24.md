@@ -1,8 +1,8 @@
 ---
 title: "Day 24"
 day: 24
-preview: ""
+preview: "Weihnachten"
 ---
 
 Heute ist **Tag 24** ❤️  
-Eine kleine Überraschung wartet auf dich!
+Frohe Weihnachten 🎉🥳 

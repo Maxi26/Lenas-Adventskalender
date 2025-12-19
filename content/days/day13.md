@@ -1,7 +1,7 @@
 ---
 title: "Day 13"
 day: 13
-preview: "Weihnachtsbaum schmücken"
+preview: "Weihnachts baum schmücken"
 ---
 
 Heute ist **Tag 13** ❤️  
